@@ -1,0 +1,204 @@
+"ac" = (/obj/machinery/atmospherics/binary/pump/on{name = "Air to Supply"},/turf/simulated/floor/tiled,/area/engineering/atmos)
+"af" = (/obj/machinery/door/window/brigdoor/southleft,/turf/simulated/floor,/area/space)
+"aT" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{dir = 4},/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"bh" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor,/area/space)
+"cf" = (/obj/machinery/telecomms/server/presets/science,/turf/simulated/floor,/area/space)
+"cL" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"cP" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/cyan,/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"dR" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"ef" = (/obj/structure/grille,/obj/structure/grille,/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"eu" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 6},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"ew" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"ey" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"eQ" = (/obj/structure/cable{icon_state = "2-4"},/obj/machinery/atmospherics/pipe/manifold/visible/supply{dir = 8},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"gm" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"hd" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"hn" = (/obj/machinery/telecomms/server/presets/common,/turf/simulated/floor,/area/space)
+"hS" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"ic" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled,/area/engineering/hallway)
+"ii" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 4},/obj/item/device/radio/intercom{name = "Station Intercom (General)"; pixel_y = -29},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"ij" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 6},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"iW" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/structure/window/reinforced{dir = 1},/obj/structure/grille,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"jV" = (/turf/simulated/floor/tiled,/area/space)
+"kc" = (/obj/machinery/door/airlock/glass_engineering{name = "Engineering"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"ks" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/turf/space,/area/space)
+"kN" = (/obj/machinery/computer/message_monitor{dir = 4},/obj/structure/window/reinforced{health = 1e+006},/turf/simulated/floor,/area/space)
+"kO" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 4},/turf/simulated/floor/tiled,/area/engineering/atmos)
+"kQ" = (/obj/machinery/atmospherics/pipe/simple/visible/universal,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"mj" = (/obj/machinery/computer/borgupload{dir = 4},/turf/simulated/floor,/area/space)
+"mz" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"mY" = (/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/reinforced/airmix,/area/engineering/atmos)
+"nr" = (/obj/machinery/atmospherics/pipe/manifold/visible/black,/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"nQ" = (/obj/machinery/message_server,/turf/simulated/floor,/area/space)
+"nR" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"nV" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"nX" = (/obj/machinery/computer/station_alert,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"oj" = (/obj/machinery/power/apc/super{dir = 4; name = "east bump"; pixel_x = 24},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/obj/machinery/requests_console{department = "Atmospherics"; departmentType = 3; name = "Atmos RC"; pixel_y = 28},/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"oq" = (/obj/machinery/power/smes/buildable{RCon_tag = "Engine - Core"; charge = 2e+006; input_attempt = 1; input_level = 100000; output_level = 200000},/obj/structure/cable/cyan{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"or" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 4},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"oA" = (/obj/machinery/door/airlock/maintenance_hatch{frequency = 1379; id_tag = "engine_airlock_interior"; name = "Engine Airlock Interior"; req_access = list(11)},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/visible/supply,/turf/simulated/floor/tiled,/area/engineering/engine_room)
+"qs" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/meter,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/alarm/nobreach{pixel_y = 22},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"qE" = (/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"qS" = (/obj/machinery/computer/aiupload{dir = 4},/turf/simulated/floor,/area/space)
+"rn" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/turf/space,/area/space)
+"sd" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/power/emitter{anchored = 1; dir = 4; id = "EngineEmitter"; state = 2},/obj/structure/cable/cyan{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/greengrid/nitrogen,/area/engineering/engine_room)
+"tb" = (/obj/structure/window/phoronreinforced{dir = 4},/obj/effect/floor_decal/industrial/loading{dir = 4},/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"tu" = (/obj/machinery/vending/engivend,/turf/simulated/floor/tiled,/area/engineering/hallway)
+"ud" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"ur" = (/obj/machinery/atmospherics/binary/pump/on{dir = 1; name = "Air to Supply"},/turf/simulated/floor/tiled,/area/engineering/atmos)
+"uH" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/turf/simulated/floor/tiled,/area/engineering/atmos)
+"uL" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/obj/item/device/radio/intercom{dir = 1; name = "Common Channel"; pixel_y = 21},/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"vO" = (/obj/machinery/atmospherics/trinary/atmos_filter,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"wi" = (/obj/item/device/radio/intercom{dir = 1; name = "Common Channel"; pixel_y = 21},/obj/structure/table/reinforced,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"wB" = (/obj/machinery/telecomms/server/presets/engineering,/turf/simulated/floor,/area/space)
+"wF" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 4},/obj/machinery/power/apc{name = "south bump"; pixel_y = -24},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"wM" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"wU" = (/obj/machinery/power/grid_checker,/obj/structure/cable{d2 = 2; icon_state = "0-2"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"xq" = (/obj/structure/grille,/turf/simulated/wall/r_wall,/area/engineering/atmos)
+"xO" = (/obj/structure/grille,/obj/structure/grille,/turf/simulated/wall/r_wall,/area/engineering/atmos)
+"xR" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4; health = 1e+006},/obj/structure/grille,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"yh" = (/turf/simulated/floor/plating,/area/engineering/engine_room)
+"ys" = (/obj/machinery/light{dir = 1},/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"zA" = (/obj/machinery/computer/power_monitor,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"AO" = (/turf/simulated/wall/r_wall,/area/space)
+"AT" = (/obj/machinery/telecomms/receiver/preset_right/cryogaia,/turf/simulated/floor,/area/space)
+"Be" = (/obj/machinery/portable_atmospherics/canister/phoron,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"BD" = (/turf/simulated/floor/reinforced/airmix,/area/engineering/atmos)
+"BQ" = (/obj/machinery/atmospherics/portables_connector,/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"BU" = (/obj/machinery/power/smes/buildable{charge = 5e+006; input_attempt = 1; input_level = 200000; output_level = 200000},/turf/simulated/floor,/area/space)
+"BZ" = (/obj/machinery/atmospherics/unary/vent_pump/engine{dir = 1; external_pressure_bound = 100; external_pressure_bound_default = 0; frequency = 1438; icon_state = "map_vent_in"; id_tag = "cooling_out"; initialize_directions = 1; pump_direction = 0; use_power = 1},/obj/machinery/camera/network/engine,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/reinforced/nitrogen,/area/engineering/engine_room)
+"Cg" = (/obj/machinery/computer/security/engineering,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"CH" = (/obj/machinery/power/generator{dir = 4},/obj/structure/cable/yellow,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"CL" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 1},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Dg" = (/obj/machinery/telecomms/server/presets/security,/turf/simulated/floor,/area/space)
+"Di" = (/obj/machinery/air_sensor{frequency = 1438; id_tag = "engine_sensor"; output = 63},/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/reinforced/nitrogen,/area/engineering/engine_room)
+"DK" = (/obj/machinery/atmospherics/binary/pump{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"DM" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Ed" = (/obj/effect/floor_decal/industrial/outline/blue,/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"El" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/light{dir = 8},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"EC" = (/obj/machinery/door/airlock/hatch{icon_state = "door_locked"; id_tag = "engine_access_hatch"; locked = 1; req_access = list(11)},/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"FK" = (/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"FL" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 4},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"Gd" = (/obj/structure/window/reinforced,/turf/simulated/floor,/area/space)
+"GH" = (/obj/effect/landmark/start{name = "AI"},/turf/simulated/floor,/area/space)
+"GW" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 4},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"GZ" = (/obj/effect/floor_decal/industrial/outline/blue,/obj/machinery/atmospherics/portables_connector{dir = 4},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Hi" = (/obj/machinery/telecomms/server/presets/command,/turf/simulated/floor,/area/space)
+"Ia" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 5},/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"If" = (/obj/machinery/atmospherics/portables_connector,/obj/effect/floor_decal/industrial/outline/blue,/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"Ir" = (/turf/simulated/wall/r_wall,/area/engineering/hallway)
+"It" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock/glass_engineering{name = "Engineering"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"IK" = (/obj/machinery/telecomms/server/presets/centcomm,/turf/simulated/floor,/area/space)
+"IU" = (/obj/structure/window/reinforced/polarized{dir = 4; id = "meeting"},/turf/simulated/floor,/area/space)
+"Jc" = (/obj/structure/grille,/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"Jf" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold4w/visible/supply,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"Jp" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Jx" = (/obj/structure/window/reinforced{dir = 4},/obj/machinery/recharge_station,/turf/simulated/floor,/area/space)
+"JG" = (/obj/machinery/power/supermatter{layer = 4},/turf/simulated/floor/greengrid/nitrogen,/area/engineering/engine_room)
+"JQ" = (/turf/space,/area/space)
+"KI" = (/obj/machinery/door/window/brigdoor/eastright,/turf/simulated/floor,/area/space)
+"LG" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/turf/space,/area/space)
+"LP" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 1},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Ml" = (/obj/structure/window/reinforced/polarized{dir = 4; id = "meeting"},/obj/structure/window/reinforced/polarized{id = "meeting"},/turf/simulated/floor,/area/space)
+"MB" = (/obj/machinery/telecomms/server/presets/medical,/turf/simulated/floor,/area/space)
+"MD" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/power/sensor{name = "Powernet Sensor - Engine Output"; name_tag = "Engine Output"},/obj/machinery/power/terminal{dir = 8},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"MK" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 5},/turf/space,/area/space)
+"MY" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10},/obj/machinery/meter,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Na" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 5},/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"NU" = (/obj/machinery/telecomms/server/presets/supply,/turf/simulated/floor,/area/space)
+"OQ" = (/obj/machinery/door/airlock/glass_atmos{name = "Atmospherics"; req_access = list(24)},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/visible/supply,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"QY" = (/obj/machinery/air_sensor{frequency = 1441; id_tag = "co2_sensor"},/turf/simulated/floor/reinforced/airmix,/area/engineering/atmos)
+"Rr" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/camera/network/engine{c_tag = "ENG - Engine Access"},/obj/machinery/alarm{dir = 8; pixel_x = 24},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"RR" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/meter,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"So" = (/obj/machinery/blackbox_recorder,/turf/simulated/floor,/area/space)
+"St" = (/turf/simulated/wall/r_wall,/area/engineering/atmos)
+"Sz" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/light{dir = 4},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"SC" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"SG" = (/obj/machinery/computer/general_air_control/supermatter_core{input_tag = "cooling_in"; name = "Engine Cooling Control"; output_tag = "cooling_out"; sensors = list("engine_sensor"="Engine Core")},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"SI" = (/obj/structure/window/phoronreinforced{dir = 4},/obj/effect/floor_decal/industrial/loading{dir = 4},/obj/machinery/portable_atmospherics/powered/pump/filled,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Tf" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/turf/space,/area/space)
+"Tv" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Tx" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"TA" = (/turf/simulated/floor,/area/space)
+"Uh" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 9},/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"UQ" = (/obj/machinery/power/smes/buildable{RCon_tag = "Engine - Main"; charge = 1e+007; cur_coils = 4; input_attempt = 1; input_level = 500000; output_level = 500000},/obj/structure/cable,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"UT" = (/obj/machinery/porta_turret/ai_defense,/turf/simulated/floor,/area/space)
+"Wb" = (/obj/machinery/door/airlock/highsecurity,/turf/simulated/floor,/area/space)
+"Wv" = (/obj/machinery/atmospherics/portables_connector,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/portable_atmospherics/canister,/turf/simulated/floor/tiled,/area/engineering/atmos)
+"WB" = (/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor,/area/space)
+"Xh" = (/obj/structure/grille,/obj/structure/window/phoronreinforced{dir = 1},/obj/structure/window/phoronreinforced{dir = 8},/obj/structure/window/phoronreinforced,/obj/structure/window/phoronreinforced{dir = 4},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Xu" = (/obj/machinery/power/terminal,/turf/simulated/floor,/area/space)
+"XI" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/turf/space,/area/space)
+"XS" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 1; external_pressure_bound = 0; external_pressure_bound_default = 0; frequency = 1441; icon_state = "map_vent_in"; id_tag = "tox_out"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/airmix,/area/engineering/atmos)
+"XZ" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/power/apc/super/critical{dir = 1; name = "north bump"; pixel_y = 24},/obj/structure/cable/cyan{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"Yj" = (/obj/machinery/vending/tool,/turf/simulated/floor/tiled,/area/engineering/hallway)
+"Yy" = (/obj/machinery/portable_atmospherics/canister/phoron,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"YA" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"YK" = (/obj/structure/table/reinforced,/turf/simulated/floor/plating,/area/engineering/engine_room)
+"ZO" = (/obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup,/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/engineering/engine_room)
+"ZQ" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 8; frequency = 1438; id = "cooling_in"; name = "Coolant Injector"; pixel_y = 1; power_rating = 30000; use_power = 1; volume_rate = 700},/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/reinforced/nitrogen,/area/engineering/engine_room)
+"ZR" = (/obj/machinery/telecomms/broadcaster/preset_right/cryogaia,/turf/simulated/floor,/area/space)
+"ZS" = (/obj/machinery/computer/rcon,/turf/simulated/floor/plating,/area/engineering/engine_room)
+
+(1,1,1) = {"
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQAOAOAOAOJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQAOAOAOnQTAAOAOAOJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQAOGHAOSoTAWBTAAOJQJQJQJQJQJQAOJQjVJQIrIrIrIrIrIrIrJQjVJQAOJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQAOUTIUkNafWBTAAOJQJQJQJQJQJQAOIrkcIrIrtuicicicYjIrIrItIrIrJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOAOafMlTATATATAAOAOJQJQJQJQJQJQIreQororGWiiororwFGWorFLRrIrJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOmjTAKITATATATATAAOJQJQJQJQJQStStOQStIrqEqEqEqEqEqEqEoAqEIrksTfJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOqSXuJxTATATATATAbhJQJQJQJQJQStuLJfojqEqEwiSGZSzACgnXeyqEqELGLGJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOAOBUAOTATATATATAbhJQJQJQJQJQStWvkQIfSIYKijCLMYhdTvDMJpqsaTXILGJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOAOAOAOAOTATATATAbhJQJQJQJQJQStururactbGZDKYALPCHnReucLEdqEJQLGJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOIKHihnAOGdTATATAbhJQJQJQJQJQStuHTxkOtbyhSzqEudXhIanrElRRaTTfLGJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOTATATAWbKITATATAbhJQJQJQJQJQStxqiWxRJcgmsdXhBZJGDiXhdReyqELGrnJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOTATATAAOAOAOAOAOAOJQJQJQJQJQJQxqBDXSJcijcPnVnVZQqEqEdReyqELGrnJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQAOAOTATATATATAcfAOAOJQJQJQJQJQJQxqQYmYJcmzvOBQqEECqEoqMDwUqErnrnJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQAOTAATTAZRTAMBAOJQJQJQJQJQJQJQxOxqxqefyhNaUhyswMXZFKhSUQqELGLGJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQAOTATATATATAwBAOJQJQJQJQJQJQJQJQJQJQqEqEZOewSCSCBeYydRqEqELGLGJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQAOAOAODgNUAOAOAOJQJQJQJQJQJQJQJQJQJQJQqEqEqEqEqEqEqEqEqEJQMKXIJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQAOAOAOAOJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+JQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQJQ
+"}
