@@ -63,7 +63,7 @@
 /datum/map_template/common_lateload/away_aerostat_surface
 	name = "Remmi Aerostat - Z2 Surface"
 	desc = "The surface from the Virgo 2 Aerostat."
-	mappath = 'maps/expedition_vr/aerostat/surface.dmm'
+	mappath = 'maps/expedition_vr/aerostat/surface_yw.dmm' //YW Edit - _yw surface
 	associated_map_datum = /datum/map_z_level/common_lateload/away_aerostat_surface
 
 /datum/map_template/common_lateload/away_aerostat_surface/on_map_loaded(z)
@@ -326,6 +326,11 @@
 
 /obj/effect/landmark/map_data/fantasy
 	height = 2
+
+/datum/map_template/common_lateload/redgate/laserdome
+	name = "Redgate - Laserdome"
+	desc = "A large orbital station with recreational facilities, namely a pair of laser tag arenas."
+	mappath = 'maps/redgate/laserdome.dmm'
 
 //////////////////////////////////////////////////////////////////////////////////////
 // Admin-use z-levels for loading whenever an admin feels like

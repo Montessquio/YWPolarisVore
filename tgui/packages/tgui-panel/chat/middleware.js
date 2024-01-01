@@ -8,7 +8,7 @@ import DOMPurify from 'dompurify';
 import { storage } from 'common/storage';
 import { loadSettings, updateSettings, addHighlightSetting, removeHighlightSetting, updateHighlightSetting } from '../settings/actions';
 import { selectSettings } from '../settings/selectors';
-import { addChatPage, changeChatPage, changeScrollTracking, loadChat, rebuildChat, removeChatPage, saveChatToDisk, toggleAcceptedType, updateMessageCount } from './actions';
+import { addChatPage, changeChatPage, changeScrollTracking, loadChat, rebuildChat, removeChatPage, saveChatToDisk, purgeChatMessageArchive, toggleAcceptedType, updateMessageCount } from './actions';
 import { MAX_PERSISTED_MESSAGES, MESSAGE_SAVE_INTERVAL } from './constants';
 import { createMessage, serializeMessage } from './model';
 import { chatRenderer } from './renderer';
@@ -28,12 +28,17 @@ const saveChatToStorage = async (store) => {
     .map((message) => serializeMessage(message));
   storage.set('chat-state', state);
   storage.set('chat-messages', messages);
+  storage.set(
+    'chat-messages-archive',
+    chatRenderer.archivedMessages.map((message) => serializeMessage(message))
+  ); // FIXME: Better chat history
 };
 
 const loadChatFromStorage = async (store) => {
-  const [state, messages] = await Promise.all([
+  const [state, messages, archivedMessages] = await Promise.all([
     storage.get('chat-state'),
     storage.get('chat-messages'),
+    storage.get('chat-messages-archive'), // FIXME: Better chat history
   ]);
   // Discard incompatible versions
   if (state && state.version <= 4) {
@@ -56,7 +61,36 @@ const loadChatFromStorage = async (store) => {
     ];
     chatRenderer.processBatch(batch, {
       prepend: true,
+      noarchive: true,
     });
+  }
+  if (archivedMessages) {
+    chatRenderer.archivedMessages = archivedMessages;
+
+    /* FIXME Implement this later on
+    const settings = selectSettings(store.getState());
+    const filteredMessages = [];
+
+    // Checks if the setting is actually set or set to -1 (infinite)
+    // Otherwise make it grow infinitely
+    if (settings.logRetainDays || settings.logRetainDays === -1) {
+      const limit = new Date();
+      limit.setDate(limit.getMinutes() - settings.logRetainDays);
+
+      for (let message of archivedMessages) {
+        const timestamp = new Date(message.createdAt);
+        timestamp.setDate(timestamp.getMinutes() - settings.logRetainDays);
+
+        if (timestamp.getDate() < limit.getDate()) {
+          filteredMessages.push(message);
+        }
+      }
+
+      archivedMessages.length = 0;
+    }
+
+    chatRenderer.archivedMessages = filteredMessages;
+    */
   }
   store.dispatch(loadChat(state));
 };
@@ -170,7 +204,12 @@ export const chatMiddleware = (store) => {
       return next(action);
     }
     if (type === saveChatToDisk.type) {
-      chatRenderer.saveToDisk();
+      const settings = selectSettings(store.getState());
+      chatRenderer.saveToDisk(settings.logLineCount);
+      return;
+    }
+    if (type === purgeChatMessageArchive.type) {
+      chatRenderer.purgeMessageArchive();
       return;
     }
     return next(action);
